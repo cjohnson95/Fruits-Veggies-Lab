@@ -219,7 +219,7 @@ app.get("/fruits/:id", async (req, res) => {
 });
 
 app.get("/veggies/:indexOfVegArray", (req, res) => {
-  res.render("vegetables/VeggiesShow", {
+  res.render("veggies/VeggiesShow", {
     veg: vegetables[req.params.indexOfVegArray],
   }); // renders the info using the appropriate template
 });
