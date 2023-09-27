@@ -17,7 +17,7 @@ mongoose.connect(process.env.MONGO_URI, {
 
 // data
 // const fruits = require('./models/fruits')
-const vegetables = require("./models/veggies");
+const vegetables = require("./models/veggies.js");
 const Fruit = require("./models/fruits.js");
 
 // adding our view templates
